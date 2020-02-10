@@ -1,0 +1,11 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Employees extends Model
+{
+    protected $fillable = ['name', 'salary'];
+    public $timestamps = true;
+}
